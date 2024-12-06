@@ -28,24 +28,34 @@ Atualização do Vocabulário: Adicionar termos automaticamente a partir de revi
 Ferramentas Necessárias
 Ollama: Para hospedar os modelos de linguagem.
 Excel + VBA ou Python: Para lidar com dados estruturados e automação.
+
 FastAPI/Flask: Para comunicação entre o Excel e o modelo de linguagem.
 Base de Dados: SQLite ou PostgreSQL para armazenamento do vocabulário controlado e do histórico de sugestões.
+
+
 Modelos LLM Open Source:
 Llama 2: Foco em compreensão geral de textos e personalização.
+
 Mistral: Mais leve, ideal para uso em ambientes locais com menos hardware.
+
 Falcon ou GPT-NeoX: Alternativas se precisarem de maior compreensão de contexto.
 Fluxo do Sistema
+
 O sistema lê os dados de Título e Resumo no Excel.
 Os dados são enviados para o modelo LLM via API.
 O modelo sugere o número de classificação e as palavras-chave.
 As sugestões são revisadas manualmente (se necessário).
 As informações finais são salvas e o vocabulário controlado é atualizado.
+
 Próximos Passos
 Definir o Vocabulário Controlado Inicial:
 Levantar os termos e classificações atualmente usados na biblioteca.
+
 Configurar o Ollama e o Modelo LLM:
 Escolher um modelo adequado e testar localmente.
+
 Criar a Integração com Excel e API:
 Decidir entre VBA ou Python para automação.
+
 Prototipar o Sistema:
 Configurar o fluxo end-to-end e ajustar conforme o feedback dos usuários.
