@@ -3,7 +3,9 @@ Arquitetura do Sistema de Indexação Automática
 Entrada de Dados
 
 Fontes: O Excel será usado como ponto de entrada inicial para os metadados do acervo, como título, resumo, e outros campos relevantes.
+
 Automação: Utilizar VBA ou Python (com openpyxl ou pandas) para enviar os dados automaticamente para a API do modelo de linguagem.
+
 Modelo de Linguagem Local
 
 Ferramenta: Usar o Ollama como base para rodar modelos como Llama 2, Mistral, ou similares localmente.
