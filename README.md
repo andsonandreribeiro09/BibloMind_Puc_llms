@@ -1,4 +1,6 @@
-Arquitetura do Sistema de Indexação Automática
+Denominado de BibloMind_Puc
+
+E Uma Arquitetura do Sistema de Indexação Automática
 
 Entrada de Dados
 
