@@ -21,8 +21,6 @@ def gerar_termos_indexacao(row):
         termos.add(row['ÁREA DO CONHECIMENTO MB'])
     if pd.notna(row['Título']):
         termos.add(" ".join(row['Título'].split()[:3]))
-    if pd.notna(row['AUTORIA']):
-        termos.add(row['AUTORIA'].split(';')[0].strip())
     return ', '.join(list(termos)[:5])
 
 # Aplicar a função para preencher a coluna 'Indexação'
